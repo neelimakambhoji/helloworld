@@ -12,5 +12,17 @@ public class MathMain {
         // subtract method
         int subtotal = math.subtract(num1, num2);
         math.print(num1, num2, subtotal);
+
+        //Multiplication method
+        int multiplytotal = math.Multiply(num1, num2);
+        math.print(num1, num2, Multiplytotal);
+
+        // Divide method
+        int dividetotal = math.Divide(num1, num2);
+        math.println(num1, num2, dividetotal);
+
+        //modulo method
+        int Madulototal = math.Modulo(num1,num2);
+        math.println(num1, num2, modulototal);
     }
 }
