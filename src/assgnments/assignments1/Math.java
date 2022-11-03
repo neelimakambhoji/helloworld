@@ -10,12 +10,12 @@ public class Math {
         }
 
     //Method OverLoad
-    public void add(float num1 float num2) {
-        float total = num1 + num2;
-        return num1 + num2 ;
+    public void add(String num1, String  num2) {
+        String total = num1 + num2;
+        return total;
 
-            Math.math = new Math();
-            System.out.print(num1f, num2f);
+           Math.math = new Math();
+            System.out.print(add(String num1, String num2));
         }
 
 
