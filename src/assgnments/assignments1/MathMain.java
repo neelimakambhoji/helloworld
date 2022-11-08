@@ -12,9 +12,8 @@ public class MathMain {
         float floatnum2 =2.0f;
         float addfloatTotal = math.add(floatnum1, floatnum2); // it is returning, it is function
         math.print(num1, num2, addTotal);
-        double x = 30;
-        double y = 20;
-        double adddoubleTotal =math.add(num1, num2);
+       // double x = 30;double y = 20;
+        double adddoubleTotal = math.add(num1, num2);
         math.print(num1, num2, addTotal);
         // subtract method
         int subTotal = math.subtract(num1, num2);
