@@ -4,60 +4,66 @@ public class Math {
 
     // add function with integer parameters
     public int add(int num1, int num2) {
-        int total = num1 + num2;
-        return total;
-
-        }
-
-    //Method OverLoad
-    public void add(String num1, String  num2) {
-        String total = num1 + num2;
-        return total;
-
-           Math.math = new Math();
-            System.out.print(add(String num1, String num2));
-        }
+        int Total = num1 + num2;
+        return Total;
+    }
 
 
-     //add  function with float parameters
+    //add  function with float parameters
        public float add(float num1, float num2){
-        float total = num1 + num2;
-        return total;
+        float Total = num1 + num2;
+        return Total;
        }
     // subtract function with integer parameters
     public int subtract(int num1, int num2) {
-        int total = num1 - num2;
-        return total;
+        int Total = num1 - num2;
+        return Total;
     }
 
 
     // subtract function with float parameters
       public float subtract(float num1, float num2) {
-          float total = num1 - num2;
-          return total;
+          float Total = num1 - num2;
+          return Total;
+      }
           // multiply function with integer parameters
-          public int Multiply (int num1, int num2 ){
-              int total = num1 * num2;
-              return total;
+          public int multiply(int num1, int num2){
+
+              int Total = num1 * num2;
+              return Total;
           }
+         public float multiply(float num1, float num2) {
+             float Total = num1 * num2;
+             return Total;
+         }
 
 
           // divide function with integer parameters
-          public int Divide ( int num1, int num2){
-              int total = num1 / num2;
-              return total;
+          public int divide(int num1, int num2){
+              int Total = num1 / num2;
+              return Total;
+          }
+          public float divide (float num1, float num2){
+                  float Total = num1 / num2;
+                       return Total;
           }
           // modulo function with integer parameters
-          public int Modulo ( int num1, int num2){
-              int total = num1 / num2;
-              return total;
+          public int modulo(int num1, int num2){
+              int Total = num1 % num2;
+                   return Total;
           }
+          public float modulo(float num1, float num2){
+                float Total = num1 % num2;
+                return Total;
+          }
+
           // print method without returning
-          public void print ( int num1, int num2, int total){
+          public void print(int num1, int num2, int total) {
               System.out.println(num1 + " " + num2 + " " + total);
-              public void print( float num1, float num2 float total){
-                  System.out.println(num1 + " " + num2 + " " + total);
-                  return total;
+          }
+          public void print(float num1, float num2){
+                  System.out.println(num1 + " " + num2);
+
               }
 
           }

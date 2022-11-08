@@ -8,24 +8,30 @@ public class MathMain {
         Math math = new Math();
         int addTotal = math.add(num1, num2); // it is returning, it is function
         math.print(num1, num2, addTotal); // it won't return anything, but do something
-        float  Total = math.add(num1, num2); // it is returning, it is function
+        float floatnum1 =1.0f;
+        float floatnum2 =2.0f;
+        float addfloatTotal = math.add(floatnum1, floatnum2); // it is returning, it is function
         math.print(num1, num2, addTotal);
-          System.out.println (add(a,b,2));
+
         // subtract method
-        int subtotal = math.subtract(num1, num2);
-        math.print(num1, num2, subtotal);
-
+        int subTotal = math.subtract(num1, num2);
+        math.print(num1, num2, subTotal);
+        float subfloatTotal = math.subtract(floatnum1, floatnum2);
+        math.print(num1, num2, subTotal);
         //Multiplication method
-        int Multiply = math.Multiply(num1, num2);
-        math.print(num1, num2, Multiplytotal);
-
+        int multiplyTotal = math.multiply( num1,  num2);
+        math.print(num1, num2, multiplyTotal);
+        float floatmultiplyTotal = math.multiply(floatnum1, floatnum2);
+        math.print(num1, num2, multiplyTotal);
         // Divide method
-        int Divide = math.Divide(num1, num2);
-        math.print(num1, num2, dividetotal);
-
+        int divideTotal = math.divide(num1, num2);
+        math.print(num1, num2, divideTotal);
+        float floatdivideTotal = math.divide(floatnum1, floatnum2);
+        math.print(num1, num2, divideTotal);
         //modulo method
-        int Modulo = math.Modulo(num1,num2);
-        math.print(num1, num2, modulototal);
-
+        int moduloTotal = math.modulo(num1,num2);
+        math.print(num1, num2, moduloTotal);
+        float floatmoduloTotal = math.modulo(floatnum1, floatnum2);
+        math.print(num1, num2, moduloTotal);
     }
 }
