@@ -4,20 +4,19 @@ public class Math {
 
     // add function with integer parameters
     public int add(int num1, int num2) {
-        int Total = num1 + num2;
-        return Total;
+        int total = num1 + num2;
+        return total;
     }
-
 
     //add  function with float parameters
     public float add(float num1, float num2){
-        float Total = num1 + num2;
-        return Total;
+        float total = num1 + num2;
+        return total;
        }
      // add function with double parameters
      public double add(double num1, double num2){
-        double Total = num1 + num2;
-        return Total;
+        double total = num1 + num2;
+        return total;
      }
     // subtract function with integer parameters
     public int subtract(int num1, int num2) {
@@ -83,12 +82,11 @@ public class Math {
           public void print(int num1, int num2, int total) {
               System.out.println(num1 + " " + num2 + " " + total);
           }
-          public void print(float num1, float num2){
-                  System.out.println(num1 + " " + num2);
-
-              }
-           public void print(double num1, double num2){
-               System.out.println(num1 + " " + num2);
+          public void print(float num1, float num2, float total){
+                  System.out.println(num1 + " " + num2 + " " + total);
+            }
+           public void print(double num1, double num2, double total){
+               System.out.println(num1 + " " + num2 + " " + total);
            }
           }
 
