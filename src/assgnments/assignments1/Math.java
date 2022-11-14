@@ -30,7 +30,7 @@ public class Math {
                return total;
       }
       //subtract function with double parameters
-       public double subtract(double num1, double num2){
+       public double subtract(double num1,double num2){
            double total = num1 - num2;
                 return total;
     }
