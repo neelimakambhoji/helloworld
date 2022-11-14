@@ -11,5 +11,11 @@ public class Employee2 {
          System.out.println("lastname  : " + employee.getLastName());
          System.out.println("   id     : " + employee.getId());
          System.out.println("   salary  : " +  employee.getSalary());
+         System.out.println("***************************");
+         employee.setfirstname("Vijay");
+         employee.setLastName("kambhoji");
+         employee.setId(10);
+         employee.setSalary(3000.50);
+         System.out.println("firstName: vijay, lastname : kambhoji, id : 10, salary : 3000.50");
     }
 }
