@@ -8,7 +8,7 @@ public class Example3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter the array size:");
          int arrSize = scanner.nextInt();
-         int[]arr = new int[ arrSize];
+         int[]arr = new int[arrSize];
          System.out.println("please enter the array values:");
          for(int i=0; i < arrSize; i++){
              arr [i] = scanner.nextInt();
