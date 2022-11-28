@@ -19,7 +19,7 @@ public class Example8 {
             revArr[arr.length - i -1] = arr[i];
 
             }
-        System.out.println("output :"+ Arrays.toString(revArr));
+        System.out.println("output :" + Arrays.toString(revArr));
            scanner.close();
         }
     }
