@@ -39,7 +39,7 @@ public class ExMulti92 {
         for(int i =0;i< arr2.length;i++) {
             System.out.println(Arrays.toString(arr2[i]));
         }
-        int[][] arr3 =new int[arr1.length][];
+        int[][] arr3 =new int[arr1.length][];                //add the elements in array and print the console
         for(int i=0;i< arr1.length;i++) {
             arr3[i] = new int[arr1[i].length];
             for (int j = 0; j < arr2.length; j++) {
