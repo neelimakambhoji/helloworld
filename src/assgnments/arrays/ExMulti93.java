@@ -20,7 +20,7 @@ public class ExMulti93 {
         }
         System.out.println("Input:");
         for(int i=0;i<arr.length;i++) {
-            System.out.println(Arrays.toString(arr));
+            System.out.println(Arrays.toString(arr[i]));
         }
         int[][] outputArr = new int [arr.length][];       //create an array with squares of the existing array elements
         for(int i=0;i< arr.length;i++) {
