@@ -8,12 +8,11 @@ public class ExaCommonElements94 {
         Scanner scanner =new Scanner(System.in);
         System.out.println("please enter the number of rows in arr1  :");
         int rowSize = scanner.nextInt();
-        int[][]arr1 = new int[rowSize][];
+        int[][] arr1 = new int[rowSize][];
         for(int i=0;i<rowSize;i++){
             System.out.println("please enter the arr colSize elements:"+i);
             int colSze = scanner.nextInt();
             arr1[i] = new int[colSze];
-
             System.out.println("please enter the arr value of elements:"+i);
             for(int j=0;j<colSze;j++){
                 arr1[i][j] = scanner.nextInt();
@@ -31,7 +30,6 @@ public class ExaCommonElements94 {
                 arr2[i][j] = scanner.nextInt();
             }
         }
-
         System.out.println("Input 1:");
         for (int i=0;i<arr1.length;i++){
             System.out.println(Arrays.toString(arr1[i]));
@@ -41,7 +39,8 @@ public class ExaCommonElements94 {
             System.out.println(Arrays.toString(arr2[i]));
 
         }
-        int[][] arr3 =new int[arr1.length][];             //create an array based on the mentioned conditions and print in the console
+        int[][] arr3 =new int[arr1.length][];
+        //create an array based on the mentioned conditions and print in the console
         for(int i=0;i< arr1.length;i++){
             arr3[i]=new int[arr1[i].length];
             for(int j=0;j<arr1[i].length;j++){
@@ -50,7 +49,6 @@ public class ExaCommonElements94 {
                else
                    arr3[i][j]=0;
             }
-
         }
         System.out.println("output:");
         for (int i=0;i<arr3.length;i++) {
