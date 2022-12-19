@@ -9,6 +9,7 @@ public class EmployeeMain {
     public static void main(String[] args) {
         EmployeeCollection employeeCollection = new EmployeeCollection();
         List<Employee> employees = employeeCollection.getEmployees();
+      //  employees.
         employees.forEach(emp ->
                 System.out.println(emp.getSalary() * .10));
         ArrayList<Integer> nums = new ArrayList<>();
